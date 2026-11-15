@@ -1,0 +1,35 @@
+# ============================================================================
+# ALTAR-NASA v6.3 — Zero-Trust Güvenlik ve Derleme Hariç Tutma Kuralları
+# ============================================================================
+
+# Sırlar, API Anahtarları ve Yerel Kullanıcı Yapılandırması (ASLA Git'e Giremez)
+.env
+.env.*
+!.env.example
+config.local.json
+*secret*
+*.pem
+*.key
+
+# Yerel Geliştirici Çalışma Alanı Yönergeleri ve Eski Derleme Profilleri (Yerelde Korunur, Depoya Yüklenmez)
+GEMINI.md
+AGENTS.md
+.agents/
+Nasa.spec
+Nasa_2.spec
+Nasa_3.spec
+verify_*.py
+capture_*.py
+
+# Python Önbellek, Klasör-İçi Taşınabilir Kurulum (.runtime) ve Derleme Çıktıları
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+.runtime/
+Nasa_4.exe
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/

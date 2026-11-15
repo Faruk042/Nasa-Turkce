@@ -1,0 +1,13 @@
+Nasa-Türkçe — ALTAR-NASA: Flame in Freefall (v6.3)
+Copyright 2026 Faruk042 (Faruk Emir Bilgin)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this software except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+This product includes open scientific experiment metadata and dimensionless
+combustion correlations derived from publicly available NASA Physical Sciences
+Informatics (PSI) and NASA Technical Reports Server (NTRS) publications, and
+bundles Three.js (MIT License) for offline 3D WebGL visualization.
